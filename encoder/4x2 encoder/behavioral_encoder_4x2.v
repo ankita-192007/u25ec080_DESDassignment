@@ -2,7 +2,7 @@
 
 //module behavioral_encoder_4x2 #(parameter In=4, parameter Op=2)
 module behavioral_encoder_4x2(
-input [4:0]I,
+input [3:0]I,
 output reg [1:0]O
   );
   always @(*)begin
